@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+
+    <form>
+
+        
+        <fieldset>
+            <legend>Login</legend>
+            <label>Username* <br>
+                <input type="text" required>
+            </label><br><br>
+
+            <label>Password* <br>
+                <input type="password" required>
+            </label>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Gender*</legend>
+            <label><input type="radio" name="gender" required> Male</label>
+            <label><input type="radio" name="gender" required> Female</label>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Programming Skill</legend>
+            <label><input type="checkbox"> Java</label>
+            <label><input type="checkbox" checked> C++</label>
+            <label><input type="checkbox"> C#</label>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Fruit</legend>
+            <label>Choose a fruit: 
+                <select>
+                    <option>Banana</option>
+                    <option>Apple</option>
+                    <option>Orange</option>
+                    <option>Mango</option>
+                </select>
+            </label>
+        </fieldset>
+
+        
+        <textarea rows="5" cols="40" placeholder="Enter your comment here"></textarea><br><br>
+
+        
+        <button type="submit">SEND</button>
+        <button type="reset">RESET</button>
+
+    </form>
+
+</body>
+</html>
